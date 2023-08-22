@@ -11,3 +11,7 @@ From [Calendar plugin of Tiddlywiki](https://github.com/tiddly-gittly/tiddlywiki
 ## Usage
 
 See [doc site](https://tiddly-gittly.github.io/tiddlywiki-tag-tree-picker-macro/).
+
+## Install
+
+From [CPL](https://github.com/tiddly-gittly/TiddlyWiki-CPL).
