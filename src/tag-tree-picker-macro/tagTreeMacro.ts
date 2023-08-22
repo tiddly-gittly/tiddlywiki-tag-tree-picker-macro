@@ -39,7 +39,7 @@ exports.run = function(tagsString = '') {
     return true;
   });
   if (tagsWithoutDuplicate.length === 0) return '';
-  return `${textMacros}<ul>
+  return `${textMacros}<ul class="linonetwo-tag-tree-picker-macro">
     ${
     tagsWithoutDuplicate
       .map((tag) => buildTocWithOfferedTiddlers(tag, tags))

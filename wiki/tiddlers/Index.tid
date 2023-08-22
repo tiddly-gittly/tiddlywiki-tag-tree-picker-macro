@@ -1,5 +1,7 @@
 title: Index
 
+!! Examples
+
 <$vars currentTiddler="TiddlerWithListOfTags" tagField="text">
 	{{||$:/core/ui/EditTemplate/tags}}
 </$vars>
@@ -8,3 +10,7 @@ title: Index
 	$variable="tag-tree-picker"
 	tags={{TiddlerWithListOfTags}}
 />
+
+!! Credits
+
+[[Github|https://github.com/tiddly-gittly/tiddlywiki-tag-tree-picker-macro]]
