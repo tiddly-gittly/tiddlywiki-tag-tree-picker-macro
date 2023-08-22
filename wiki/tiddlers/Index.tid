@@ -1,0 +1,10 @@
+title: Index
+
+<$vars currentTiddler="TiddlerWithListOfTags" tagField="text">
+	{{||$:/core/ui/EditTemplate/tags}}
+</$vars>
+
+<$transclude
+	$variable="tag-tree-picker"
+	tags={{TiddlerWithListOfTags}}
+/>

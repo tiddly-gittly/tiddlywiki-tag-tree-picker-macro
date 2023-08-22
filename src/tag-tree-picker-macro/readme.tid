@@ -1,0 +1,21 @@
+title: $:/plugins/linonetwo/tag-tree-picker-macro/readme
+type: text/vnd.tiddlywiki
+
+!! Macro usage
+
+This traditional tag list will show tags in a line:
+
+```tw5
+<$vars currentTiddler="$:/plugins/linonetwo/tw-calendar/settings/frequently-used-tags" tagField="text">
+	{{||$:/core/ui/EditTemplate/tags}}
+</$vars>
+```
+
+But this plugin provides a `tag-tree-picker` macro to show tags in a tree:
+
+```tw5
+<$transclude
+	$variable="tag-tree-picker"
+	tags={{TiddlerWithListOfTags}}
+/>
+```
