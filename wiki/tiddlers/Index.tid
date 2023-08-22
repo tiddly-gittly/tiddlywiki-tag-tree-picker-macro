@@ -1,15 +1,49 @@
+created: 20230822055742511
+modified: 20230822055821842
+tags: Sleeping SubTagExample2 SubTagExample2-1
 title: Index
+type: text/vnd.tiddlywiki
+
+\define tag-tree-button-action(tagName)
+<$action-listops $tags="[[$tagName$]]" $tiddler="Index" />
+\end
+
+```tw5
+<!-- On button click, add clicked tag to Index tiddler -->
+\define tag-tree-button-action(tagName)
+<$action-listops $tags="[[$tagName$]]" $tiddler="Index" />
+\end
+```
 
 !! Examples
+
+Available tags are in the [[TiddlerWithListOfTags]] tiddler.
 
 <$vars currentTiddler="TiddlerWithListOfTags" tagField="text">
 	{{||$:/core/ui/EditTemplate/tags}}
 </$vars>
 
+```tw5
+<!-- Show traditional tag picker for [[TiddlerWithListOfTags]] tiddler (Not [[Index]] tiddler!) -->
+<$vars currentTiddler="TiddlerWithListOfTags" tagField="text">
+	{{||$:/core/ui/EditTemplate/tags}}
+</$vars>
+```
+
+And click on buttons in the tree to add tags to the [[Index]] tiddler.
+
 <$transclude
 	$variable="tag-tree-picker"
 	tags={{TiddlerWithListOfTags}}
 />
+
+```tw5
+<!-- Show tree buttons, only show tiddlers defined in [[TiddlerWithListOfTags]] tiddler. But if those tiddlers have tree relationship, show then as tree. -->
+<$transclude
+	$variable="tag-tree-picker"
+	tags={{TiddlerWithListOfTags}}
+/>
+```
 
 !! Credits
 

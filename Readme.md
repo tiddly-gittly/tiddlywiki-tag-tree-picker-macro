@@ -4,9 +4,9 @@
 
 From [Calendar plugin of Tiddlywiki](https://github.com/tiddly-gittly/tiddlywiki-calendar):
 
-![Use as Tag picker](Screenshot1.png)
+![Use as Tag picker](wiki/tiddlers/Screenshot1.png)
 
-![Use in calendar event creation](Screenshot2.png)
+![Use in calendar event creation](wiki/tiddlers/Screenshot2.png)
 
 ## Usage
 

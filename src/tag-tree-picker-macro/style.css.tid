@@ -5,4 +5,5 @@ type: text/vnd.tiddlywiki
 
 .linonetwo-tag-tree-picker-macro button {
   border: 0;
+  cursor: pointer;
 }
