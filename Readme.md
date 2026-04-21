@@ -1,5 +1,7 @@
 # Tag Tree Picker
 
+Moved to <https://github.com/tiddly-gittly/tiddlywiki-calendar>
+
 ## Screenshots
 
 From [Calendar plugin of Tiddlywiki](https://github.com/tiddly-gittly/tiddlywiki-calendar):
